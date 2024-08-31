@@ -1,0 +1,37 @@
+.banner {
+    display: grid;
+    max-width: 900px;
+    margin-inline: auto;
+    padding: 4rem;
+    background-color: #ffe6f2;
+    border-radius: 3rem;
+  }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  a{
+    color: #e987b6;
+  }
+  .access {
+    text-align: center;
+  }
+  img {
+    display: block;
+    max-width: 100px;
+    margin-inline: auto;
+    margin-block-end: 1rem; 
+    border-radius: 50%;
+  }
+  @media (min-width: 700px) {
+    .banner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+      gap: 2rem;
+    }
+    .banner__access {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  }

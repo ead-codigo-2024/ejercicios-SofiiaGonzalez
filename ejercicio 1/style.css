@@ -1,9 +1,11 @@
 h1 {
     color: rgb(255, 192, 232);
 }
-h2{
-    font-size: 1,5rem;
-    font-weight: bold;
+.instragram.a {
+    font-size: 2rem;
+}
+header { 
+    line-height: 0.5;
 }
 body {
     background-color: rgb(255, 240, 249);
