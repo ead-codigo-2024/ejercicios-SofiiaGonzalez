@@ -7,39 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="news-section">
-        <div class="news-header">
-            <h2>Te contamos <span class="line"></span></h2>
-            <a href="#" class="view-all-button">
-                Ver todas las noticias <span class="plus-icon">+</span>
-            </a>
+    <div class="container">
+        <header class="container_header">
+          <h3>Te contamos</h3>
+          <a href="#" class="view-all-button">Ver todas las noticias <span class="plus-icon">+</span></a>
+        </header>
+        <div class="container_body">
+          <article class="access">
+            <div class="news-category">Iglesia</div>
+            <img src="abuelito.jpeg" alt="Noticia Iglesia" class="access__img">
+            <div class="access__content">
+              <span class="access__epigraph">RECTOR UC</span>
+              <h4 class="access__title">La dignidad primero</h4>
+            </div>
+          </article>
+          <article class="access">
+            <div class="news-category">Tecnología</div>
+            <img src="pagweb.jpg" alt="Noticia Tecnología" class="access__img">
+            <div class="access__content">
+              <h4 class="access__title">UC lanza nueva plataforma digital para impulsar la ciberseguridad</h4>
+            </div>
+          </article>
+          <article class="access">
+            <div class="news-category">Elección de Rector</div>
+            <img src="ucimg.jpg" alt="Elección de Rector" class="access__img">
+            <div class="access__content">
+              <h4 class="access__title">Gran Canciller de la UC nombra a los cuatro miembros del Comité de Búsqueda</h4>
+            </div>
+          </article>
         </div>
-        
-        <div class="news-grid">
-            <article class="news-card">
-                <img src="abuelito.jpeg" alt="Noticia 1">
-                <div class="news-category">Iglesia</div>
-                <div class="news-content">
-                    <h3>La dignidad primero</h3>
-                </div>
-            </article>
-
-            <article class="news-card">
-                <img src="pagweb.jpg" alt="Noticia 2">
-                <div class="news-category">Tecnología</div>
-                <div class="news-content">
-                    <h3>UC lanza nueva plataforma digital para impulsar la ciberseguridad</h3>
-                </div>
-            </article>
-
-            <article class="news-card">
-                <img src="ucimg.webp" alt="Noticia 3">
-                <div class="news-category">Elección de Rector</div>
-                <div class="news-content">
-                    <h3>Gran Canciller de la UC nombra a los cuatro miembros que se integran al Comité de Búsqueda</h3>
-                </div>
-            </article>
-        </div>
-    </section>
+      </div>
 </body>
 </html>
