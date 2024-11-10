@@ -5,7 +5,7 @@ function validateForm() {
     var time = document.getElementById("time").value;
 
     // Validación de campos vacíos
-    if (name == "" || people == "" || date == "" || time == "") {
+    if (name === "" || people === "" || date === "" || time === "") {
         alert("Por favor, rellena todos los campos obligatorios.");
         return false;
     }
@@ -18,7 +18,7 @@ function validateForm() {
 
     // Si la validación es exitosa, mostrar mensaje de éxito y ocultar el formulario
     document.getElementById("reservationForm").style.display = "none";
-    document.getElementById("successMessage").style.display = "block";
-    
-    return false; // Evita que se envíe el formulario (puedes cambiarlo a true si deseas enviar los datos a un servidor)
+    document.getElementById("successMessage").classList.remove("hidden");
+
+    return false; // Evita que se envíe el formulario
 }

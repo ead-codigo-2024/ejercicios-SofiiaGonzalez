@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesweb.css">
+
+    <style>
+         ::-webkit-scrollbar {
+            width: 12px; /* Ancho de la barra de desplazamiento */
+        }
+
+        /* Cambia el color del "track" (el área de fondo de la scrollbar) */
+        ::-webkit-scrollbar-track {
+            background-color: #f1f1f1; /* Fondo claro */
+        }
+
+        /* Cambia el color del "thumb" (la barra que se desliza) */
+        ::-webkit-scrollbar-thumb {
+            background-color: #c08b89; /* Color del deslizador */
+            border-radius: 10px; /* Redondea las esquinas */
+        }
+
+        /* Cambia el color del deslizador cuando se pasa el cursor por encima */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #ba8381; /* Color más oscuro al pasar el cursor */
+        }
+
+        /* Para que haya algo de contenido en la página */
+        body {
+            height: 200vh;
+            margin: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!--encabezado-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Ejercicios</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Diseño desde el código 2024</h1>
+        <p>Portafolio de Sofía González</p>
+    </section>
+
+    <!--2da parte pag web-->
+    <div class="container">
+        <div class="content">
+            <div class="text-section" id="proyectos">
+                <h1>Ejercicios</h1>
+                <p>Durante este semestre en la asignatura, nos enfocamos en el diseño UX, comenzando con pequeños ejercicios prácticos que nos permitieron trabajar en HTML, CSS y JavaScript. Estas actividades iniciales nos ayudaron a comprender los fundamentos del desarrollo de interfaces y a aplicar principios de diseño centrado en el usuario. Finalmente, todo el aprendizaje fue volcado en la creación y construcción del proyecto final de la asignatura, consolidando así las habilidades y conceptos adquiridos a lo largo del curso.</p>
+                <div class="button_space"><a href="https://wiki.ead.pucv.cl/Dise%C3%B1o_desde_el_C%C3%B3digo_2024" class="button_dos">Wiki curso</a></div>
+            </div>
+            <div class="gallery">
+                <div class="item">
+                    <a href="ejercicio 1/indexuno.html" target="_blank">
+                        <img src="imagenes/Ejercicio1.png" alt="PagwebSofía">
+                        <p>Primera pág. web</p>
+                    </a>
+                    <span>Ejercicio 1</span>
+                </div>
+                <div class="item">
+                    <a href="ejercicio 2/indexdos.html" target="_blank">
+                        <img src="imagenes/Ejercicio2.png" alt="Ejercicio2">
+                        <p>Cuadro de texto</p>
+                    </a>
+                    <span>Ejercicio 2</span>
+                </div>
+                <!-- Añadir más imágenes aquí -->
+                <div class="item">
+                    <a href="ejercicio 3/indextres.html" target="_blank">
+                        <img src="imagenes/Ejercicio3.png" alt="RecreacionWebPucv">
+                        <p>Recreación web PUCV</p>
+                    </a>
+                    <span>Ejercicio 3</span>
+                </div>
+                <div class="item">
+                    <a href="ejercicio 4/indexcuatro.html" target="_blank">
+                        <img src="imagenes/Ejercicio4.png" alt="Formulario">
+                        <p>Formulario</p>
+                    </a>
+                    <span>Ejercicio 4</span>
+                </div>              
+            </div>
+        </div>
+    </div>
+
+    <!--3ra parte pag web-->
+    <section class="feature-section" id="about">
+        <div class="feature-container">
+            <div class="feature-text">
+                <h1>Sofía González Ortega</h1>
+                <p>Estudiante de tercer año de diseño de la Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso.</p>
+                <div class="button_tres"> <a href="https://wiki.ead.pucv.cl/Sofia_Gonzalez" class="feature-button">Wiki Casiopea</a> </div>
+            </div>
+            <div class="feature-image">
+                <img src="imagenes/sofiag.jpg" alt="Sofía González" height="400px" width="400px">
+            </div>
+        </div>
+    </section>
+
+    <!--4ta parte pag web - Contacto-->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h1>Contacto</h1>
+            <p><strong>Email PUCV:</strong> sofia.gonzalez.o@mail.pucv.cl</p>
+            <p><strong>Universidad:</strong> Pontificia Universidad Católica de Valparaíso</p>
+        </div>
+    </section>
+</body>
+</html>
